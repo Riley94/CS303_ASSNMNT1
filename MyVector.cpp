@@ -14,7 +14,7 @@ MyVector::~MyVector()
     delete[] theVector;
 }
 
-// check to see if the vector contains the number
+// check to see if the vector contains the given number
 int MyVector::contains(int num) const
 {
     for (int i = 0; i < size; i++)
@@ -42,8 +42,8 @@ void MyVector::push_back(int num)
             delete[] theVector;
             theVector = temp;
         }
-            theVector[size] = num;
-            size++;
+        theVector[size] = num;
+        size++;
     }
     catch (...)
     {
