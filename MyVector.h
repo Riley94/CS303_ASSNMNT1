@@ -1,5 +1,3 @@
-// Name: Riley Bruce
-
 #pragma once
 
 #include <iostream>
